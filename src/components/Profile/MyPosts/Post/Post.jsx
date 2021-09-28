@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Post.module.css";
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={s.item}>
             <img
@@ -9,7 +9,7 @@ const Post = () => {
                 alt="Avatar"/>
             post 1
             <div>
-                <span>like</span>
+                <span>{props.value}</span>
             </div>
         </div>
     );
