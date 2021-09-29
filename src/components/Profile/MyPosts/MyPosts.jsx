@@ -10,9 +10,9 @@ const MyPosts = () => {
                 <button>Add post</button>
             </div>
             <div className={s.posts}>
-                <Post value={"HTML"}/>
-                <Post value={"CSS"}/>
-                <Post value={"JS"}/>
+                <Post message="Hi, how are you?"/>
+                <Post message="It's my first post"/>
+                <Post message="Hello world!"/>
             </div>
         </div>
     );
